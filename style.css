@@ -1,0 +1,87 @@
+body{
+    font-family: 'poppins', sans-serif;
+    padding: 0;
+}
+
+.layout{
+    display: flex;
+    min-height: 100vh;
+}
+
+.layout-left{
+    width: 60%;
+    padding: 80px 140px;
+}
+
+.layout-right{
+    width: 40%;
+    background-image: url(pexels-mizunokozuki-12903295.jpg);
+    background-size: cover;
+    flex-shrink: 0;
+}
+
+.brand{
+    margin-bottom: 150px;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.badge{
+    display: inline;
+    background: rgba(17, 63, 226, 0.1);
+    border-radius: 100px;
+    margin-bottom: 15px;
+    color: #113FE2;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 5px 15px;
+}
+
+.heading{
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    line-height: 60px;
+    width: 500px;
+    color: #0A1B59;
+}
+
+.lead{
+    font-size: 16px;
+    color: rgba(10, 27, 89, 0.6);
+    width: 500px;
+    line-height: 32px;
+}
+
+.invite-form{
+    display: flex;
+    margin-top: 40px;
+}
+
+.invite-form input{
+    width: 100%;
+    margin-right: 20px;
+    padding: 0 20px;
+    border-radius: 8px;
+    border: 1px solid rgba(10, 27, 89, 0.2);
+    height: 54px;
+}
+
+.invite-form button{
+    background-color: #113FE2;
+    flex-shrink: 0;
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+}
+
+.form-text{
+    color: rgba(10, 27, 89, 0.6);
+    width: 400px;
+    line-height: 24px;
+    font-size: 12px;
+}
